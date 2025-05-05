@@ -42,3 +42,44 @@ Headings are visually highlighted using internal styling for clear categorizatio
 
 
 ![component](https://github.com/user-attachments/assets/02ac0746-9de6-4c38-8a13-6f8d6a99c694)
+
+
+
+
+
+# 3) PE03-Todos
+
+
+## Input
+
+This React Native to-do application begins with user input collected through a text input field. Users type a task and tap the “Submit” button to add it to the task list.
+Each task is assigned a unique index (`todoIndex`) and an initial `complete` status of false. Users can also interact with two buttons next to each task: “Done” to mark the task as complete or incomplete, and “Delete” to remove it.
+
+
+## Process
+
+Upon submitting a task, the app appends it to the `todos` array stored in component state. Tapping “Done” toggles a task’s `complete` status using the `toggleComplete` method. The “Delete” button triggers the `deleteTodo` method, filtering the task out of the list. A tab bar at the bottom allows users to filter tasks by All, Active, or Complete using the `type` state value, updating the view accordingly.
+
+## Output
+
+The app displays a styled, scrollable list of tasks based on the selected filter and current state. The screenshots show below show the All, Active and Complete filters based on the input tasks:
+
+a) All
+
+![Todo_All](https://github.com/user-attachments/assets/82362953-bedc-41f6-a8bc-4afd143dd2c8)
+
+
+
+b) Active
+
+![Todo_All](https://github.com/user-attachments/assets/4cb9c1db-6f0e-4363-ac3d-74b534b27c3d)
+
+
+c) Complete
+
+![Todo_Complete](https://github.com/user-attachments/assets/e31ee834-5d8a-4039-9a79-d171dcce6110)
+
+
+
+
+
