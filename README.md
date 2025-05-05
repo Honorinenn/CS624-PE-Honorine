@@ -66,13 +66,19 @@ The app displays a styled, scrollable list of tasks based on the selected filter
 
 a) All
 
+
 ![Todo_All](https://github.com/user-attachments/assets/82362953-bedc-41f6-a8bc-4afd143dd2c8)
 
 
 
 b) Active
 
-![Todo_All](https://github.com/user-attachments/assets/4cb9c1db-6f0e-4363-ac3d-74b534b27c3d)
+
+
+![Todo_Active](https://github.com/user-attachments/assets/deae2f7c-82b1-43fd-b7b8-6086b320a28c)
+
+
+
 
 
 c) Complete
