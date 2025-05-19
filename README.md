@@ -87,5 +87,56 @@ c) Complete
 
 
 
+# 4) PE04-ProfileCards
+
+# i) Part 1
+
+## Input
+The program accepts data that may include user-provided input, files, or API responses depending on the task. This input serves as the raw data that drives the logic of the application. Inputs are expected in specific formats such as text, numbers, or structured data like JSON or CSV.
+
+## Process
+Once input is received, the program processes it using a sequence of logic and functions. These tasks may involve validation, transformation, filtering, or applying algorithms. The core functionality is implemented using loops, conditionals, and data structures. Depending on the assignment, the program might include features such as sorting, searching, or interacting with external libraries or APIs.
+
+## Output
+After processing the input, the program generates output in a structured and user-readable format. This could be a visual component such as the profilecard shown below: 
+
+
+![PE04_Part01](https://github.com/user-attachments/assets/4d94efbf-64a0-4130-a6d3-d7119a7562bb)
+
+
+
+
+
+
+
+# ii) Part 2
+
+## Input  
+The application starts with a predefined dataset of user profiles. Each profile includes an image, name, occupation, and description. These values are hardcoded in a JavaScript array within the code. The user can interact with the app by tapping on individual profile cards, which is the primary form of input.
+
+## Process  
+The app uses React Native components to render each profile through the `ProfileCard` component. The state of each card (expanded or collapsed) is managed using the `immutability-helper` library, which updates the `showThumbnail` boolean for a selected card. A `TouchableHighlight` wrapper detects user presses and triggers the toggle functionality. Based on this state, the card either displays just the image (thumbnail view) or the full profile information (expanded view).
+
+## Output  
+The output is a dynamic gallery of profile cards. Cards are initially displayed in thumbnail form. Upon user interaction, a card smoothly expands to show full details, creating an interactive and user-friendly UI experience as shown below:
+
+
+
+![PE04_Part02a](https://github.com/user-attachments/assets/a5b0135d-1cd8-40bb-8887-77591ffa4454)
+
+
+
+
+
+
+
+
+
+
+
+![PE04_Part02b](https://github.com/user-attachments/assets/69d86619-559b-4111-bf59-55e46d3db7fb)
+
+
+
 
 
