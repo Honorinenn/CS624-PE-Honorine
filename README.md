@@ -121,7 +121,7 @@ The app uses React Native components to render each profile through the `Profile
 The output is a dynamic gallery of profile cards. Cards are initially displayed in thumbnail form. Upon user interaction, a card smoothly expands to show full details, creating an interactive and user-friendly UI experience as shown below:
 
 
-
+Before expand:
 ![PE04_Part02a](https://github.com/user-attachments/assets/a5b0135d-1cd8-40bb-8887-77591ffa4454)
 
 
@@ -132,7 +132,7 @@ The output is a dynamic gallery of profile cards. Cards are initially displayed 
 
 
 
-
+When clicked on a thumbnail:
 
 ![PE04_Part02b](https://github.com/user-attachments/assets/69d86619-559b-4111-bf59-55e46d3db7fb)
 
