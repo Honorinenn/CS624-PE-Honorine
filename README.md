@@ -140,3 +140,58 @@ When clicked on a thumbnail:
 
 
 
+
+
+
+
+# 5) PE05-CitiesApp
+
+## Input
+The application accepts user input through intuitive forms and navigation. In the AddCountry screen, users can enter a country name and its currency, which are then added to the app’s state-managed list of countries. Similarly, in the AddCity screen, users input a city name and its corresponding country. Each entry is validated and saved with a unique ID. Touch gestures allow users to tap on list items in the Countries and Cities tabs to view more details. This input mechanism ensures a smooth data entry experience and supports consistent navigation across different screens.
+
+
+## Process
+Internally, the app uses React Native state management and navigation stacks to manage and display screens. Upon adding a city or country, the application updates its state to reflect the new data. Navigation between screens (Cities, City, Countries, Country) is handled by React Navigation. The app also includes functionality to add locations to cities, creating a nested data structure and enhancing user interaction.
+
+
+## Output
+The application outputs a dynamic, interactive user interface that displays a list of cities and countries. Users can tap entries to view details, creating a smooth, responsive user experience. The following screens show the various displays:
+
+
+
+
+Initial screen with four tabs:
+
+![Figure01](https://github.com/user-attachments/assets/7320052c-34e8-42cd-b2cb-90136c5045b0)
+
+
+
+
+The AddCountry tab:
+
+![Figure02](https://github.com/user-attachments/assets/8516888f-583f-45e1-b9e9-26560591f5b0)
+
+
+
+
+
+The Countries tab:
+
+![Figure03](https://github.com/user-attachments/assets/edca750e-be7b-4230-aeba-beeba7233df4)
+
+
+
+
+The AddCountry tab:
+
+![Figure04](https://github.com/user-attachments/assets/f0158541-827c-4eb5-a292-45cb8d2b7070)
+
+
+
+
+
+The Countries tab:
+
+![Figure05](https://github.com/user-attachments/assets/2ecd63aa-7ca3-4e21-8e26-175527783233)
+
+
