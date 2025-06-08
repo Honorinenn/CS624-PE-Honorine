@@ -195,3 +195,45 @@ The Countries tab:
 ![Figure05](https://github.com/user-attachments/assets/2ecd63aa-7ca3-4e21-8e26-175527783233)
 
 
+
+
+
+
+
+
+
+
+
+
+
+# 6) PE06 - Cities with Countries and Currency using Tab and Stack-based Navigations
+
+
+## Input
+The program allows users to input country and currency data through a user-friendly interface. Users enter the country name and its corresponding currency using form fields provided in the AddCountry screen. Each submission is validated to ensure both fields are filled before proceeding. This input is passed to the app’s state for storage.
+
+
+## Process
+Upon form submission, the app updates its internal state by appending the new country-currency pair to the countries array. The addCountry() function handles this update, ensuring the data is correctly structured. The CountriesNav tab uses screenProps to pass this updated data to the Countries.js component, where it is rendered in a scrollable list. Navigation between screens is managed using React Navigation.
+
+
+## Output
+The output is a visual display of the saved countries and their respective currencies. Each entry appears as a stylized list item, allowing users to view and select detailed currency information on a separate screen as shown in the screenshot below:
+
+The "Countries" Stack:
+
+
+
+
+
+![Image03](https://github.com/user-attachments/assets/2dd25edd-c549-4d3e-ba29-b260260013f4)
+
+
+
+
+The "Country" Stack with Currency info:
+
+
+
+
+![Image04](https://github.com/user-attachments/assets/e2b26289-42b8-4c5b-ac38-4fdc7255889b)
